@@ -30,5 +30,11 @@ public class ConstructorProgram {
 	public void setCustomerCity(String customerCity) {
 		this.customerCity = customerCity;
 	}
+	@Override
+	public String toString() {
+		return "ConstructorProgram [customerId=" + customerId + ", customerName=" + customerName + ", customerCity="
+				+ customerCity + "]";
+	}
+	
 	
 }

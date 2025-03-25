@@ -5,6 +5,7 @@ public class MyJavaPackage {
 	String name;
 	protected int marks;
 	public String collageName;
+	
 	public int getId() {
 		return id;
 	}

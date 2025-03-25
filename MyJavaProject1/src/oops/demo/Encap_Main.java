@@ -9,6 +9,7 @@ public class Encap_Main {
 		obj.setName("Bunny");
 		obj.setAge(15);
 		System.out.println(obj);
+		
 
 	}
 
