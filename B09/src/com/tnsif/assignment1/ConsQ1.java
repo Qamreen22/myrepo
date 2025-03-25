@@ -41,5 +41,5 @@ public class ConsQ1 {
 		this.percentage = percentage;
 	}
 	
-	
+
 }
