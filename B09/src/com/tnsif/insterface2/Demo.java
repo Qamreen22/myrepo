@@ -11,7 +11,10 @@ public class Demo {
 		
 		Payment debitcard = new DebitCard("234561762");
 		debitcard.process(3000);
-
+		
+		PaymentService ps = new PaymentService();
+		ps.makePayment(creditcard,77); 
+		ps.makePayment(debitcard,1000); 
 	}
 
 }
